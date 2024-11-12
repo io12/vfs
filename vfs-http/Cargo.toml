@@ -1,0 +1,10 @@
+[package]
+name = "vfs-http"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vfs = { path = "../vfs" }
+cache-read-seek = { path = "../cache-read-seek" }
+reqwest = { version = "0.11.24", features = ["blocking"] }
+thiserror = "1.0.57"

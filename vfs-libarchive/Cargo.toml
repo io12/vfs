@@ -1,0 +1,13 @@
+[package]
+name = "vfs-libarchive"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vfs = { path = "../vfs" }
+libarchive-sys = { path = "../libarchive-sys" }
+cache-read-seek = { path = "../cache-read-seek" }
+typed-path = "0.8.0"
+
+[dev-dependencies]
+tempfile = "3.10.0"

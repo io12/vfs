@@ -1,0 +1,14 @@
+[package]
+name = "vfs-meta"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["vfs-local", "vfs-libarchive", "vfs-http"]
+
+[dependencies]
+vfs = { path = "../vfs" }
+vfs-local = { path = "../vfs-local", optional = true }
+vfs-libarchive = { path = "../vfs-libarchive", optional = true }
+vfs-http = { path = "../vfs-http", optional = true }
+nom = "7.1.3"

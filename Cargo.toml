@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "vfs",
+    "vfs-meta",
+    "vfs-local",
+    "cache-read-seek",
+    "libarchive-sys",
+    "vfs-libarchive",
+    "vfs-http",
+]
